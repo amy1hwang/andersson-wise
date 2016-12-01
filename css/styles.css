@@ -17,6 +17,11 @@ h1 {
   background-color: white;
 }
 
+.header a {
+  color: black;
+  text-decoration: none;
+}
+
 .header h1 {
   margin: 0;
   padding: 12px 20px;
@@ -48,7 +53,7 @@ li a {
 .location {
   color: white;
   padding: 20px 0;
-  text-shadow: 1px 1px 1px #000;
+  text-shadow: 2px 2px 1px #000;
 }
 
 .location h1 {
@@ -80,6 +85,11 @@ li a {
   margin-top: -3px;
   background-color: white;
   margin-bottom: 22px;
+}
+
+.featured a {
+  color: black;
+  text-decoration: none;
 }
 
 .featured h3 {
@@ -140,6 +150,10 @@ li a {
     font-size: 11px;
   }
 
+  li a:hover {
+    color: #539e6d;
+  }
+
   .lounge {
     height: 65vh;
     position: relative;
@@ -152,6 +166,7 @@ li a {
     z-index: 1;
     top: 52vh;
     left: 50px;
+    cursor: pointer;
   }
 
   .project {
@@ -165,12 +180,20 @@ li a {
     margin: 0;
   }
 
+  .lightgrey {
+    color: rgb(194, 194, 194);
+  }
+
   .press {
     background-color: rgb(6, 26, 2);
-    color: rgb(194, 194, 194);
     border-right: 6px solid white;
     position: relative;
     text-align: center;
+    transition: background-color 0.5s;
+  }
+
+  .press:hover {
+    background-color: #050c02;
   }
 
   .arrow {
@@ -195,7 +218,7 @@ li a {
   }
 
   .about {
-    background-color: black;
+    background-color: #0f0f0f;
     color: white;
     border-left: 6px solid white;
     padding: 20px 30px 20px 40px;
@@ -222,7 +245,7 @@ li a {
   }
 }
 
-@media screen and (min-width: 950px) {
+@media screen and (min-width: 950px), screen and (min-width: 950px) and (orientation: landscape) {
   .lounge {
     float: left;
     width: 70%;
