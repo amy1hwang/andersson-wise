@@ -1,8 +1,8 @@
-# Get Your Starter Pokemon
+# Andersson Wise Replication
 ## by Amy Hwang
 
 # description of the webpage
-This webpage is for customers who need a starter pokemon to go on a journey with, or who simply wants a pokemon companion. The image gallery displays enlarge images of pokemon and a table chart is to help customers make better decisions of which pokemon to get. Once a customer has decided which pokemon to take, he/she may fill out the checkout form and submit the form by clicking "I CHOOSE YOU!" button.
+This webpage is a replication of Andersson Wise webpage including a layouts for each media screen.
 
 # program setup instructions
 * Clone this repository.
@@ -11,7 +11,7 @@ This webpage is for customers who need a starter pokemon to go on a journey with
 
 
 # link to site on GitHub Pages
-https://amy1hwang.github.io/starter-pokemon
+https://amy1hwang.github.io/andersson-wise/
 
 # copyright and license information
 Copyright (c) 2016 Amy Hwang. This software is licensed under the Github license.
