@@ -1,5 +1,5 @@
 # Andersson Wise Replication
-## by Amy Hwang
+## by Amy Hwang | 11.25.2016
 
 # description of the webpage
 This webpage is a replication of Andersson Wise webpage including a layouts for each media screen.
